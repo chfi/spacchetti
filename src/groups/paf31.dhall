@@ -78,4 +78,9 @@ in  { event =
         [ "free", "functors", "transformers" ]
         "https://github.com/paf31/purescript-pairing.git"
         "v5.1.0"
+    , drawing =
+        mkPackage
+        [ "canvas", "colors", "integers", "lists", "math" ]
+        "https://github.com/paf31/purescript-drawing.git"
+        "v4.0.0"
     }
